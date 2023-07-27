@@ -37,7 +37,7 @@
       - recall score: 1.00
 
 ## Summary
---
+--<br>
 Both models performed good for health loan status prediction as the precision and recall score is at 100%. Hence the performance between models will be compared against High-risk loan status prediction.<br>
 <br>
 It is important to have high Precision and high recall values as "A high precision score indicates less false positives and high recall score indicates less false negative. Based on this consideration, RandomOverSampler model seems to perform better when compared to the 'train_test_split' model. Even though the percentage of false positive (precision score) score is same in both the models, RandomOverSampler model showcases better recall score and thus reducing false negative score. Still with only 87% precision rate false positive could lead to potential loss of customer. <br>
